@@ -8,8 +8,7 @@ function submitForm() {
     const profession = document.getElementById('profession').value;
     const email = document.getElementById('email').value;
     const mobile = document.getElementById('mobile').value;
-  
-    // Validate the form (add your validation logic here)
+
     const isValidEmail = validateEmail(email);
     const isValidMobile = validateMobile(mobile);
 
